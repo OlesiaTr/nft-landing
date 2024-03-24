@@ -1,0 +1,9 @@
+{
+  "title": "Collection",
+  "sliderControls": {
+    "prevBtnAriaLabel": "Back button to flip through the slides",
+    "nextBtnAriaLabel": "Forward button to flip through the slides",
+    "prevBtnText": "Prev",
+    "nextBtnText": "Next"
+  }
+}

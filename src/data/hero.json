@@ -1,0 +1,58 @@
+{
+  "logo": {
+    "path": "/",
+    "ariaLabel": "Link by company logo"
+  },
+  "mobileMenu": {
+    "links": [
+      {
+        "text": "About",
+        "path": "#about",
+        "ariaLabel": "Scroll to the about us section"
+      },
+      {
+        "text": "M-map",
+        "path": "#m-map",
+        "ariaLabel": "Scroll to the mind-map section"
+      },
+      { "text": "Faq", "path": "#faq", "ariaLabel": "Scroll to faq section" },
+      {
+        "text": "Arts",
+        "path": "#arts",
+        "ariaLabel": "Scroll to the arts section"
+      },
+      {
+        "text": "Mint",
+        "path": "#mint",
+        "ariaLabel": "Scroll to the mint section"
+      }
+    ]
+  },
+  "socialLinks": [
+    {
+      "logo:": "discord",
+      "src": "icons/discord-logo.svg",
+      "ariaLabel": "Connect with us on the Discord"
+    },
+    {
+      "logo:": "logomark-blue",
+      "src": "icons/logomark-blue-logo.svg",
+      "ariaLabel": "Connect with us on the Logomark Blue"
+    },
+    {
+      "logo:": "twitter",
+      "src": "icons/twitter-logo.svg",
+      "ariaLabel": "Connect with us on the Twitter/X"
+    }
+  ],
+  "heroText": {
+    "question": "diD yOu seE iT ?",
+    "title": "YACHT APES",
+    "subTitle": "Apes aRe eveRywhere",
+    "description": "Yacht Ape is a collection of unique digital apes that you can own in NFT format"
+  },
+  "button": {
+    "label": "MEET APES",
+    "ariaLabel": "Scroll to the mint section"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Are you in?",
+  "description": "Join the YACHT APE community to be one of the first to receive our limited edition NFT",
+  "formFields": {
+    "discordName": "@username",
+    "metamaskAddress": "Wallet address"
+  },
+  "button": {
+    "label": "Mint",
+    "ariaLabel": "Submit button for minting limited edition NFT"
+  }
+}
