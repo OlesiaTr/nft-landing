@@ -1,11 +1,11 @@
 'use client';
 
 import { FieldValues, SubmitHandler, useForm } from 'react-hook-form';
+import { zodResolver } from '@hookform/resolvers/zod';
+import { Report } from 'notiflix';
 import data from '@/data/contact-us.json';
 import { Button, FormField } from '@/components/ui';
 import { schema } from './schema';
-import { zodResolver } from '@hookform/resolvers/zod';
-import { Report } from 'notiflix';
 
 export const ContactUsForm = () => {
   const { inputs, button, onSuccess } = data.form;
@@ -55,6 +55,7 @@ export const ContactUsForm = () => {
       <Button
         disabled={userName === '' || walletAddress === ''}
         aria-label={button.ariaLabel}
+        type="submit"
       >
         {isSubmitSuccessful
           ? Object.keys(errors).length > 0

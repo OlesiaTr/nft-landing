@@ -66,5 +66,5 @@ body {
 /* Common */
 
 .section {
-  @apply py-[60px] md:py-20 xl:py-[120px];
+  @apply flex flex-col items-center gap-6 px-[72px] pb-[60px] md:gap-10 md:pb-[80px]  xl:gap-20 xl:pb-[120px];
 }

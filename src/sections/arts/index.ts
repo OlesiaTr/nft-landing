@@ -1,0 +1,1 @@
+export { Arts } from './arts';

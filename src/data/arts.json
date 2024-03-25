@@ -1,4 +1,5 @@
 {
+  "id": "arts",
   "title": "Collection",
   "sliderControls": {
     "prevBtnAriaLabel": "Back button to flip through the slides",
