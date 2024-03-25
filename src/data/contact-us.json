@@ -1,12 +1,54 @@
 {
+  "id": "contactUs",
   "title": "Are you in?",
   "description": "Join the YACHT APE community to be one of the first to receive our limited edition NFT",
-  "formFields": {
-    "discordName": "@username",
-    "metamaskAddress": "Wallet address"
-  },
-  "button": {
-    "label": "Mint",
-    "ariaLabel": "Submit button for minting limited edition NFT"
+  "form": {
+    "inputs": [
+      {
+        "id": "input01",
+        "placeholder": "@username",
+        "type": "text",
+        "name": "userName",
+        "required": true
+      },
+      {
+        "id": "input02",
+        "placeholder": "Wallet address",
+        "type": "text",
+        "name": "walletAddress",
+        "required": true
+      }
+    ],
+    "validation": {
+      "userName": {
+        "format": {
+          "reg": "^@(?:[A-Za-z0-9_]{2,}#(?!0000)\\d{4}|(?!.*\\.\\.)[a-zA-Z0-9_.]{2,32})$",
+          "message": "wrong discord"
+        },
+        "minLength": {
+          "value": 2,
+          "message": "required field"
+        },
+        "maxLength": {
+          "value": 32,
+          "message": "max length is 32 characters"
+        }
+      },
+      "walletAddress": {
+        "format": {
+          "reg": "^0x[a-fA-F0-9]{40}$",
+          "message": "wrong address"
+        }
+      }
+    },
+    "button": {
+      "label": "Mint",
+      "ariaLabel": "Submit button for minting limited edition NFT"
+    },
+    "onSuccess": {
+      "title": "Your application has been successfully sent!",
+      "description": "We will contact you shortly.",
+      "buttonAgreement": "Okay!"
+    }
   }
 }
