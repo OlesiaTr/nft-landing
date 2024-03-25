@@ -27,6 +27,8 @@ const config: Config = {
         darkBg: '#181818',
         grayBg: 'rgba(255, 255, 255, 0.10)',
         accentBg: 'rgba(30, 30, 30, 0.10)',
+        placeholder: 'rgba(255, 255, 255, 0.24)',
+        disabledBg: 'rgba(220, 59, 90, 0.8)',
       },
       transitionDuration: {
         DEFAULT: '300ms',

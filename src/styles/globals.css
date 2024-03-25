@@ -57,3 +57,14 @@
   font-weight: 900;
   font-style: normal;
 }
+
+/* Body */
+body {
+  @apply bg-darkBg font-messina text-xs font-normal leading-[1.16] text-white xl:text-2xl xl:leading-[1.20];
+}
+
+/* Common */
+
+.section {
+  @apply py-[60px] md:py-20 xl:py-[120px];
+}
