@@ -9,7 +9,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body className="font-messina">{children}</body>
+      <body className="font-messina">
+        <main>{children}</main>
+      </body>
     </html>
   );
 }
